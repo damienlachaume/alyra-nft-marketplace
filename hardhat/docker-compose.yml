@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    environment:
+      - DEBUG=1
+    ports:
+      - '80:3000'
